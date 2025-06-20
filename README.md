@@ -5,6 +5,10 @@
 npm install
 ```
 
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
