@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-
-    <!-- 加這兩行：FullCalendar 核心 + DayGrid 樣式 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.8/main.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.8/main.min.css"
-      rel="stylesheet"
-    />
-
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>calendar-upload</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but calendar-upload doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
